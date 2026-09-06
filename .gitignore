@@ -1,0 +1,34 @@
+# simulation / synthesis outputs
+simv
+simv.daidir/
+csrc/
+*.daidir/
+ucli.key
+*.vcd
+*.fsdb
+*.vpd
+*.wlf
+*.log
+DVEfiles/
+verdiLog/
+novas*
+
+# compiled outputs
+*.o
+*.so
+*.a
+build/
+
+# foundry views: never tracked (never tracked)
+*.lib
+*.lef
+*.gds
+*.db
+*.cdl
+*.spi
+pdk/
+
+# editor / OS
+.DS_Store
+*.swp
+*~
