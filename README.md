@@ -74,9 +74,9 @@ post-layout figures for the configuration in this tree:
 
 | | |
 |---|---|
-| Area | 70.6 mm² (35.2 mm² active), of which the OMMX-specific encoder, decoder and PMU extension is 2.26 % |
+| Area | 70.6 mm² (35.2 mm² active, with BF16 accumulator) / 86.2 mm² (43.0 mm² active, with FP24 accumulator), of which the OMMX-specific encoder, decoder and PMU extension is ≤ 2.26 % |
 | Power | 73 W accelerator (not chip TDP) |
-| On-chip SRAM | 6.43 MB |
+| On-chip SRAM | 6.43 MB (BF16 accumulator) / 7.43 MB (FP24 accumulator) |
 | Peak throughput | 131 TFLOPS BF16×BF16, 262 BF16×FP8, 524 BF16×FP4 |
 | Off-chip | HBM2-class trace model, up to 512 GB/s |
 
